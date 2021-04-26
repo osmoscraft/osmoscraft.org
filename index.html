@@ -1,88 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Simple tools that help you discover, ingest, organize, connect, generate, and share knowledge.">
-    <meta name="keywords" content="knowledge base, rss reader, bookmark manager">
-    <meta name="author" content="osmoscraft">
-    <meta property="og:title" content="osmos::craft"/>
-    <meta property="og:image" content="https://osmoscraft.org/assets/osmoscraft-banner-1280-640.png"/>
-    <meta property="og:description" content="Simple tools that help you discover, ingest, organize, connect, generate, and share knowledge."/>
-    <meta property="og:url" content="https://osmoscraft.org"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="canonical" href="https://osmoscraft.org">
-    <title>osmos::craft</title>
-  </head>
-  <body>
-    <style>
-      body {
-        font-family: monospace;
-        margin: 2rem;
-      }
 
-      h1 {
-        font-size: 2rem;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Simple tools that help you discover, ingest, organize, connect, generate, and share knowledge.">
+  <meta name="keywords" content="knowledge base, rss reader, bookmark manager">
+  <meta name="author" content="osmoscraft">
+  <meta property="og:title" content="osmos::craft" />
+  <meta property="og:image" content="https://osmoscraft.org/assets/osmoscraft-banner-1280-640.png" />
+  <meta property="og:description"
+    content="Simple tools that help you discover, ingest, organize, connect, generate, and share knowledge." />
+  <meta property="og:url" content="https://osmoscraft.org" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="canonical" href="https://osmoscraft.org">
+  <title>osmos::craft</title>
+</head>
 
-      h2 {
-        font-size: 1.2rem;
-      }
+<body>
+  <style>
+    body {
+      font-family: monospace;
+      margin: 2rem;
+    }
 
-      .coming-soon {
-        opacity: 0.5;
-      }
+    h1 {
+      font-size: 2rem;
+    }
 
-      .with-bracket {
-        white-space: nowrap;
-        line-height: 2; /* more space for stacked layout on narrow screen */
-      }
+    h2 {
+      font-size: 1.2rem;
+    }
 
-      .with-bracket:before {
-        content: "「\00a0";
-        display: inline-block;
-        text-decoration: none;
-      }
-      .with-bracket:after {
-        content: "\00a0」";
-        display: inline-block;
-        text-decoration: none;
-      }
-    </style>
-    <main>
-      <h1>osmos::craft</h1>
-      <dl>
-        <dt>ōsmós</dt>
-        <dd>Ancient Greek, <em>push</em>.</dd>
-      </dl>
+    .coming-soon {
+      opacity: 0.5;
+    }
+
+    .with-bracket {
+      white-space: nowrap;
+      line-height: 2;
+      /* more space for stacked layout on narrow screen */
+    }
+
+    .with-bracket:before {
+      content: "「\00a0";
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .with-bracket:after {
+      content: "\00a0」";
+      display: inline-block;
+      text-decoration: none;
+    }
+  </style>
+  <main>
+    <h1>osmos::craft</h1>
+    <dl>
+      <dt>ōsmós</dt>
+      <dd>Ancient Greek, <em>push</em>.</dd>
+    </dl>
+    <p>
+      osmos::craft is a set of tools that push you to discover, ingest, organize, connect, generate, and share
+      knowledge, so <em>you</em> can push the human intellect to new frontiers.<br>
+    </p>
+    <br>
+    <section>
+      <h2>feed</h2>
+      <p>A web-based RSS reader running entirely from your GitHub repo.</p>
       <p>
-        osmos::craft is a set of tools that push you to discover, ingest, organize, connect, generate, and share knowledge, so <em>you</em> can push the human intellect to new frontiers.<br>
+        <a class="with-bracket" aria-label="osmos feed demo" href="https://osmoscraft.github.io/osmosfeed-demo">Demo</a>
+        <a class="with-bracket" aria-label="osmos feed source" href="https://github.com/osmoscraft/osmosfeed">Source</a>
       </p>
-      <br>
-      <section>
-        <h2>feed</h2>
-        <p>A web-based RSS reader running entirely from your GitHub repo.</p>
-        <p>
-          <a class="with-bracket" aria-label="osmos feed demo" href="https://osmoscraft.github.io/osmosfeed-demo">Demo</a>
-          <a class="with-bracket" aria-label="osmos feed source" href="https://github.com/osmoscraft/osmosfeed">Source</a>
-        </p>
-      </section>
-      <br>
-      <section>
-        <h2>memo</h2>
-        <p>An in-browser bookmark manager with easy tagging and fast recall.</p>
-        <p>
-          <span class="coming-soon">Extensions coming soon</span>
-          <a class="with-bracket" aria-label="osmos memo source" href="https://github.com/osmoscraft/osmosmemo">Source</a>
-        </p>
-      </section>
-      <br>
-      <section>
-        <h2>note</h2>
-        <p>A web-based text editor for networked note-taking, self-hostable on any Git repository.</p>
-        <p class="coming-soon">Coming soon</p>
-      </section>
-    </main>
-  </body>
+    </section>
+    <br>
+    <section>
+      <h2>memo</h2>
+      <p>An in-browser bookmark manager with easy tagging and fast recall.</p>
+      <p>
+        <a class="with-bracket" aria-label="osmos meme Chrome extension"
+          href="https://chrome.google.com/webstore/detail/osmosmemo/chgfencjlhmjhmnnpnlnchglkkdcipii">Chrome</a>
+        <a class="with-bracket" aria-label="Chrome extension"
+          href="https://addons.mozilla.org/en-US/firefox/addon/osmos-memo">Firefox</a>
+        <a class="with-bracket" aria-label="Firefox extension"
+          href="https://microsoftedge.microsoft.com/addons/detail/osmosmemo/hhhiajhglkelhgipohelpagkdcgadacj">Edge</a>
+        <a class="with-bracket" aria-label="Edge add-on" href="https://github.com/osmoscraft/osmosmemo">Source</a>
+      </p>
+    </section>
+    <br>
+    <section>
+      <h2>note</h2>
+      <p>A web-based text editor for networked note-taking, self-hostable on any Git repository.</p>
+      <p class="coming-soon">Coming soon</p>
+    </section>
+  </main>
+</body>
+
 </html>
